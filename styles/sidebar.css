@@ -1,0 +1,40 @@
+.side-bar
+{
+    padding-top: 16px;
+    position:fixed;
+    background-color:white;
+    color:black;
+    bottom:0;
+    left:0;
+    top:50px;
+    width: 70px;
+    z-index: 100;
+}
+.sidebar-link
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height:64px;
+}
+.you-text
+{
+    padding-left: 5px;
+}
+.sidebar-link:hover
+{
+    background-color: lightgrey;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.sidebar-link img
+{
+   
+    height:24px;
+}
+.sidebar-link div
+{
+    align-items: center;
+    font-size: 10px;
+}
