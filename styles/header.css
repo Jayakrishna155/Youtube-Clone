@@ -158,13 +158,14 @@
 }
 .profile
 {
-    cursor:pointer;
+    cursor: pointer;
     height:30px;
     border-radius: 50%;
   
 }
 .notification-block
 {
+    cursor: pointer;
     padding: 4px;
     border-radius: 50%;
     position: relative;
