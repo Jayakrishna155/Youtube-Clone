@@ -158,6 +158,7 @@
 }
 .profile
 {
+    cursor:pointer;
     height:30px;
     border-radius: 50%;
   
@@ -170,6 +171,7 @@
 }
 .notification-block:hover
 {
+    cursor:pointer;
     background-color: lightgray;
   
 }
