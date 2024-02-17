@@ -89,7 +89,7 @@
           .video-grid
           {
             display: grid;
-            grid-template-columns:max-content;
+            grid-template-columns:1fr 1fr;
           }
         }
         @media (max-width:651) and (min-width:999)
