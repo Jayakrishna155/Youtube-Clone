@@ -82,21 +82,14 @@
           text-decoration: none;
           color: black;
         }
-        @media (max-width:350px)
-        {
-          .video-grid
-          {
-            display: grid;
-            grid-template-columns: 1fr;
-          }
-        }
+
 
         @media (max-width:650px)
         {
           .video-grid
           {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns:max-content;
           }
         }
         @media (max-width:651) and (min-width:999)
